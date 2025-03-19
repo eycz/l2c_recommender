@@ -36,7 +36,7 @@ def get_options(col):
 
 st.title("EY Lead2Car Configurator Recommender")
 
-st.write("Configure your desired car attributes below:")
+st.write("Configure your desired car attributes in the side panel on the left.⬅️")
 
 # Sidebar EY logo
 st.sidebar.image("./data/ey_logo.png", use_container_width=True)
