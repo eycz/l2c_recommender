@@ -34,7 +34,7 @@ def get_options(col):
     options = sorted(df[col].dropna().unique().tolist())
     return [""] + options  # Prepend an empty option
 
-st.title("EY Lead2Car Configurator Recommender")
+st.title("EY Lead2Car Stock Car Recommender")
 
 st.write("Configure your desired car attributes in the side panel on the left.⬅️")
 
